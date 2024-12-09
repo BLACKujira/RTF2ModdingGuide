@@ -13,7 +13,7 @@
 ## 寻找安装目录
 以Steam版为例，右击游戏图标，在弹出的菜单中选择 `管理` -> `浏览本地文件` ，即可打开游戏的安装目录。这里应该有一个名叫 `RTypeFinal2.exe` 的可执行文件和 `Engine` 、 `RTypeFinal2` 文件夹。如果你购买了OST，这里还会有OST的文件夹。
 
-![GameDir](..\image\GameDir.png)
+![GameDir](../image/GameDir.png)
 
 打开 `RTypeFinal2` **文件夹**，再打开其中的 `Binaries` 文件夹，最后打开其中的 `Win64` 文件夹。在这里，你应该能看到 `RTypeFinal2-Win64-Shipping.exe` 这个文件，这里就是UE4SS的安装目录。
 

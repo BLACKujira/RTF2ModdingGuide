@@ -10,7 +10,7 @@
 
 また、`setdll.exe` はゲームの実行可能ファイルにDLLを注入し、ゲームと共に自動的に起動します。毎回手動で注入する必要はありません。
 
-私を信頼している場合は、Releasesページから私がビルドした `setdll.exe` をダウンロードできます。または、[detours](https://github.com/microsoft/detours) のコードをクローンして自分でビルドすることもできます。ビルドした `setdll.exe` は `bin.X64` フォルダ内に保存されます。
+私を信頼している場合は、[Releases](https://github.com/BLACKujira/RTF2ModdingGuide/releases) ページから私がビルドした `setdll.exe` をダウンロードできます。または、[detours](https://github.com/microsoft/detours) のコードをクローンして自分でビルドすることもできます。ビルドした `setdll.exe` は `bin.X64` フォルダ内に保存されます。
 
 ## コマンドでDLLを注入する方法
 

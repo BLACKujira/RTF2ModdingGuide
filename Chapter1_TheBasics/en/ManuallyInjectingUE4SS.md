@@ -10,7 +10,7 @@ I recommend using `setdll.exe` from Microsoft's `Detours` project to inject the 
 
 `setdll.exe` injects the DLL into the game's executable, allowing it to automatically run with the game on startup without requiring manual injection every time.
 
-If you trust me, you can download the precompiled `setdll.exe` from the Releases section. Alternatively, you can clone the [detours](https://github.com/microsoft/detours) repository and compile it yourself. The compiled `setdll.exe` can be found in the `bin.X64` folder.
+If you trust me, you can download the precompiled `setdll.exe` from the [Releases](https://github.com/BLACKujira/RTF2ModdingGuide/releases) section. Alternatively, you can clone the [detours](https://github.com/microsoft/detours) repository and compile it yourself. The compiled `setdll.exe` can be found in the `bin.X64` folder.
 
 ## Using Commands to Inject the DLL
 

@@ -8,7 +8,7 @@
 
 同时`setdll.exe`会将DLL注入到游戏的可执行文件中，在启动时随游戏自动运行，不需要每次都手动注入。
 
-如果你信得过我，就在 Releases 中下载我编译好的 `setdll.exe` ，也可以克隆 [detours](https://github.com/microsoft/detours) 的代码自行编译，编译好的 `setdll.exe` 将出现在 `bin.X64` 文件夹中。
+如果你信得过我，就在 [Releases](https://github.com/BLACKujira/RTF2ModdingGuide/releases) 中下载我编译好的 `setdll.exe` ，也可以克隆 [detours](https://github.com/microsoft/detours) 的代码自行编译，编译好的 `setdll.exe` 将出现在 `bin.X64` 文件夹中。
 
 ## 使用指令注入DLL
 **Windows10** 及以上，按 `徽标 + X` ，在弹出的菜单中打开 **命令提示符** 或者 **Power Shell**。  

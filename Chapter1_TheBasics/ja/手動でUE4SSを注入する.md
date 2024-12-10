@@ -1,8 +1,8 @@
 # 手動でUE4SSを注入する
 
-インストールが正しく行われているにもかかわらず、UE4SSがゲームの起動時に一緒に立ち上がらない場合は、UE4SSインストールディレクトリに `UE4SS.log` ファイルが存在するかを確認してください。もしない場合、UE4SSがゲームプロセスに自動で注入されていないことになります。
+インストールが正しく行われているにもかかわらず、UE4SSがゲームの起動時に一緒に立ち上がらない場合は、UE4SSインストールディレクトリに `UE4SS.log` ファイルが存在するかを確認してください。もしない場合、UE4SSがゲームプロセスに自動で注入されていないことになります。この場合、DLLを手動で注入する必要があります。
 
-この問題は、Windows7以下のシステムで発生することが多いようです。この場合、DLLを手動で注入する必要があります。
+この問題は、Windows7以下のシステムで発生することが多いようですが、システムによるものとは限らないという証拠はありません。
 
 ## DLL注入ツールの準備
 
@@ -12,7 +12,20 @@
 
 私を信頼している場合は、[Releases](https://github.com/BLACKujira/RTF2ModdingGuide/releases) ページから私がビルドした `setdll.exe` をダウンロードできます。または、[detours](https://github.com/microsoft/detours) のコードをクローンして自分でビルドすることもできます。ビルドした `setdll.exe` は `bin.X64` フォルダ内に保存されます。
 
-## コマンドでDLLを注入する方法
+## 注入スクリプトの使用
+
+DLL、注入ツール、ゲームファイルが固定されているため、注入操作を簡略化するためにバッチファイルを作成しました。
+
+1. まず、[Releases](https://github.com/BLACKujira/RTF2ModdingGuide/releases) から `setdll.exe` と `ManuallyInjectUE4SS.bat` をダウンロードします。
+2. `setdll.exe` と `ManuallyInjectUE4SS.bat` を `RTypeFinal2\Binaries\Win64` フォルダに移動します。このフォルダには `RTypeFinal2-Win64-Shipping.exe` と `UE4SS.dll` が存在します。
+3. `ManuallyInjectUE4SS.bat` をダブルクリックして実行します。**コマンドプロンプト** が開き、手動で `UE4SS.dll` を注入する指示が実行されます。
+
+- 注入に成功すると、**コマンドプロンプト** にDLL名が並んだ後、`Injection successful! Launching the game...` と表示され、ゲームが起動します。その他のメッセージは注入失敗を意味します。
+- `Injection skipped to avoid overwriting the backup file.` と表示された場合は、スクリプトが以前の注入時に残したバックアップファイルを検出したことを意味します。再度注入しないでください。
+
+## 代替方法：コマンドでDLLを注入する方法
+
+注入スクリプトが機能しない場合、次の方法でDLLを注入できます。
 
 **Windows10以上** の場合、`Win + X` を押して、表示されたメニューから **コマンドプロンプト** または **Power Shell** を開きます。
 

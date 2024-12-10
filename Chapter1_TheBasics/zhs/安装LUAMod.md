@@ -15,8 +15,8 @@
 
 打开 `mods.txt`，你可以看到与一个写着Mod名字的列表。
 
-在Mod列表下方、 `; Built-in keybinds, do not move up!` 的上方添加一条 `(Mod的名字) : 1`
-- 请将 `Mod的名称` 替换为你所安装的Mod的名称，这个名称应该和 `与Mod名称相同的文件夹` 的名称相同。
+在Mod列表下方、 `; Built-in keybinds, do not move up!` 的上方添加一条 `(Mod的名称) : 1`
+- 请将 `(Mod的名称) ` 替换为你所安装的Mod的名称，这个名称应该和 `与Mod名称相同的文件夹` 的名称相同。
 
 ![ModsTxt](../image/ModsTxt.png)
 

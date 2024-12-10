@@ -19,6 +19,8 @@ Copy the Blueprint Mod's **`.pak` file** into the `LogicMods` folder. If there i
 
 If there is no `.sig` file, you can **copy** any `.sig` file from the `Paks` folder, paste it into the `LogicMods` folder, and rename it to match the `.pak` file name of the Blueprint Mod.
 
+- Unlike PAK Mods, **do not rename the Blueprint Mod's .pak file** unless the mod author specifically requests it. Otherwise, the Blueprint Mod will not function properly.
+
 ![LogicModsFolder](../image/LogicModsFolder.png)
 
 ### Example: Installing SimpleBossLifeBarMod
@@ -37,6 +39,8 @@ A `.pak` file is a resource file used by the Unreal Engine, containing game asse
 The Unreal Engine allows `.pak` files to patch content from other `.pak` files, enabling content overrides. `PAK Mods` leverage this feature to modify game content, such as visuals, sounds, and data. However, PAK Mods are typically static and cannot add new game content.
 
 In contrast, `Blueprint Mods` include a special entry object in their `.pak` files. With a mod loader like UE4SS, this entry object can be added to the game level, enabling game content expansion.
+
+The UE4SS Blueprint Mod system relies on the .pak file name to locate the entry object within the same-named path inside the .pak file. This is why the Blueprint Mod's .pak file should not be renamed.
 
 ## Additional Information: What is a .sig File?
 A `.sig` file is a signature file for a `.pak` file. When loading `.pak` files, the game checks for the presence of corresponding `.sig` files. If the `.sig` file is missing, the `.pak` file will not load. This is why `.pak` files and `.sig` files in the `Paks` folder appear in pairs.

@@ -36,6 +36,11 @@
 
 ![FixGuiConsole](../image/FixGuiConsole.png)
 
+## 其他的安装指南
+你可以查看 [UE4SS官方文档中的安装指南](https://docs.ue4ss.com/dev/installation-guide.html) 来获取任何本指南中遗漏的信息。
+
+由于 *R-Type Final 2* 是一个典型的用UE4开发的游戏，其安装UE4SS的方式与其他使用UE4、UE5开发的游戏别无二致。网络上大部分的教程文章、视频都可以用作参考。
+
 ## 接下来...
 如果UE4SS安装成功，接下来就可以安装Mod了。根据Mod类型的不同，安装方式也不同，请参照下面的教程安装不同类型的Mod。
 - [安装蓝图Mod](安装蓝图Mod.md)

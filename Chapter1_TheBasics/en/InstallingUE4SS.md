@@ -36,6 +36,11 @@ Open the file with any text editor. Find the line `GraphicsAPI = opengl` and cha
 
 ![FixGuiConsole](../image/FixGuiConsole.png)
 
+## Additional Installation Guides
+You can refer to the [official UE4SS installation guide](https://docs.ue4ss.com/dev/installation-guide.html) for information that may be missing from this guide.
+
+Since *R-Type Final 2* is a typical game developed using UE4, the installation of UE4SS follows the same process as for other UE4 and UE5 games. Most online tutorials and videos can be used as references.
+
 ## What’s Next...
 If UE4SS is installed successfully, you can now start installing mods. The installation method varies depending on the type of mod. Refer to the following tutorials to install different types of mods:
 - [Installing Blueprint Mods](InstallingBlueprintMods.md)

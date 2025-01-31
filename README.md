@@ -12,7 +12,7 @@ The content in this chapter is consistent with general *Unreal Engine 4* and *Un
 - [Install Blueprint Mods](Chapter1_TheBasics/en/InstallingBlueprintMods.md)
 - [Install PAK Mods](Chapter1_TheBasics/en/InstallingPAKMods.md)
 - [Install LUA Mods](Chapter1_TheBasics/en/InstallingLUAMods.md)
-- [Enter Mod Levels](Chapter1_TheBasics/en/EnterModLevels.md)
+- [Enter Mod Stages](Chapter1_TheBasics/en/EnterModLevels.md)
 
 ## Chapter 2.0: R-Type Final 2 Project Structure
 This chapter covers the basics of mod development and is accessible even to non-developers who are interested in learning about the structure.
@@ -30,7 +30,7 @@ This chapter lists some data tables, enumerations, and their related content, ma
 While there are too many enemies to list in detail, this chapter will introduce a method to locate enemy IDs.
 
 - Locate Enemy IDs via Images in BydoLab
-- Level List
+- Stage List
 - R-Craft List
 - Force List
 

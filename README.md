@@ -61,16 +61,16 @@ Refer to [this classic tutorial](https://docs.ue4ss.com/dev/feature-overview/blu
 - Example: Replacing Background Music (requires baking)
 - Example: Modifying Weapon Data (does not require baking)
 
-## Chapter 5.0: Level Mods
-This chapter introduces general knowledge about *Level Mods*. For specific details on each *Level Mod Template*, refer to their respective documentation.
+## Chapter 5.0: Stage Mods
+This chapter introduces general knowledge about *Stage Mods*. For specific details on each *Stage Mod Template*, refer to their respective documentation.
 
-- Level Loading Logic
-- Structure of a Level
-- Level Initialization Logic
+- Stage Loading Logic
+- Structure of a Stage
+- Stage Initialization Logic
 - CountAsset (Scroll Event)
 
 # Chapter 5.1: Enemy Information
-This chapter introduces technical information about the game's original enemies, which will help level mod developers generate them within their levels.
+This chapter introduces technical information about the game's original enemies, which will help stage mod developers generate them within their stages.
 
 - [E000_E1940_PowArmor](Chapter5_1_EnemyData/en/E000_E1940_PowArmor.md)
 

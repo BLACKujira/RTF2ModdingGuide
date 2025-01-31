@@ -69,7 +69,7 @@ This chapter introduces general knowledge about *Stage Mods*. For specific detai
 - Stage Initialization Logic
 - CountAsset (Scroll Event)
 
-# Chapter 5.1: Enemy Information
+## Chapter 5.1: Enemy Information
 This chapter introduces technical information about the game's original enemies, which will help stage mod developers generate them within their stages.
 
 - [E000_E1940_PowArmor](Chapter5_1_EnemyData/en/E000_E1940_PowArmor.md)

@@ -11,6 +11,7 @@
 - [安装蓝图Mod](Chapter1_TheBasics/zhs/安装蓝图Mod.md)
 - [安装PAK Mod](Chapter1_TheBasics/zhs/安装PAKMod.md)
 - [安装LUA Mod](Chapter1_TheBasics/zhs/安装LUAMod.md)
+- [进入Mod关卡](Chapter1_TheBasics/zhs/进入Mod关卡.md)
 
 ## Chapter 2.0：R-Type Final 2 的项目构成
 

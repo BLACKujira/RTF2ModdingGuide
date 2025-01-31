@@ -15,26 +15,26 @@
 
 以下の手順を行うことで、kismet-analyzer を準備できます。もし事前に生成された *kismet-analyzer* を使用したい場合は、[Releases](https://github.com/BLACKujira/RTF2ModdingGuide/releases) からダウンロードできますが、.NET 8.0 ランタイムも必要です。
 
-### 手順1：kismet-analyzer リポジトリをクローンする
+### ステップ1：kismet-analyzer リポジトリをクローンする
 
 - まず、[kismet-analyzer](https://github.com/trumank/kismet-analyzer) のコードをダウンロード、または任意の `Git` クライアントを使用してクローンします。
 
 多くの `Git` クライアントはこのプロジェクト内の *UAssetAPI* プロジェクトを同期的に取得しないため、*UAssetAPI* プロジェクトも手動でダウンロードまたはクローンし、適切なフォルダに配置する必要があります。
 
-### 手順2：生成環境の設定
+### ステップ2：生成環境の設定
 
 - *Visual Studio* や他のIDEを使用して `kismet-analyzer.csproj` を開き、生成を試みます。多くの場合、この時点で生成が失敗します。
 
 もし `NET SDK は .NET 8.0 をターゲットとして設定することをサポートしていません。 .NET 6.0 またはそれ以下のバージョンをターゲットとして設定するか、.NET 8.0 をサポートする .NET SDK バージョンを使用してください` というエラーが表示される場合、[.NET 8.0 SDK](https://dotnet.microsoft.com/ja-jp/download/visual-studio-sdks) と `.NET 8.0 ランタイム` をインストールする必要があります。
 
-### 手順3：UAssetAPI と kismet-analyzer の生成
+### ステップ3：UAssetAPI と kismet-analyzer の生成
 
 この時点で *kismet-analyzer* を生成しようとすると `D:\Extract\kismet-analyzer\UAssetAPI\UAssetAPI\bin\Debug\net8.0\UAssetAPI.dll` ファイルが見つからないというエラーが発生します。そのため、まずは *UAssetAPI* を生成する必要があります。
 
 - IDEを使用して `UAssetAPI\UAssetAPI\UAssetAPI.csproj` を開き、プロジェクトを生成します。
 - 次に `kismet-analyzer` を生成します。
 
-### 手順4：Graphviz のインストール
+### ステップ4：Graphviz のインストール
 
 - *kismet-analyzer* は [Graphviz](https://graphviz.org/) を使用してフローチャートを生成するため、*Graphviz* をインストールする必要があります。
 - インストール時に `PATH` システム変数に追加するオプションを選択してください。そうでなければ手動で `PATH` に追加するか、*kismet-analyzer* のコードを変更する必要があります。

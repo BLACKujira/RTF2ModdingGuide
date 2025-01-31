@@ -1,5 +1,5 @@
-# 将委托作为函数的参数
-在为游戏中的蓝图创建虚拟副本（Dummy）时，你可能会注意到一些类型为 `DelegateProperty` 的函数参数，比如说下面这个。但蓝图中的参数类型似乎没有 *委托* 这一选项。
+# Using Delegates as Function Parameters
+When creating Dummies for blueprints, you may notice some function parameters with the type `DelegateProperty`, like the example below. However, in blueprints, it seems there is no option for the *delegate* type for parameters.
 
 ```json
 {
@@ -37,8 +37,8 @@
 },
 ```
 
-其实这个问题的解决方法很简单，在函数中随便创建一个带 *委托参数* 的节点，将 *委托类型的引脚* 拖动到 *输入节点* 上添加新的引脚就可以了。
+The solution to this problem is quite simple. In the function, simply create a node with a *delegate parameter*, and drag the *delegate-type pin* to the *input node* to add a new pin.
 
 ![DelegateProperty](../image/DelegateProperty.png)
 
-你会注意到，这样创建的输入参数的名字是 "当前虚幻引擎所使用语言" 中的 `事件` 这个单词。所以游戏中委托类型的参数基本都命名为 `イベント`，大概这些参数也是被这样创建的。
+You will notice that the name of the input parameter created this way is `イベント`, which is the word for "event" in the language currently used by Unreal Engine. Therefore, delegate-type parameters in the game are typically named `イベント`, which is likely how these parameters are created.

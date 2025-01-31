@@ -41,7 +41,7 @@
 
 - 工具列表
 - 技能列表
-- [控制台指令](Chapter3_0_DeveBasics/zhs/控制台指令.md)
+- [游戏内控制台指令](Chapter3_0_DeveBasics/zhs/游戏内控制台指令.md)
 
 ## Chapter 4.0：蓝图Mod
 

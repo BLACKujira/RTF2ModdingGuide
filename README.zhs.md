@@ -49,12 +49,12 @@
 
 请参考 [这个经典的教程](https://docs.ue4ss.com/dev/feature-overview/blueprint-modloader.html) 学习 *蓝图Mod* 的基础。
  
-- [版本选择：4.26.2 还是 4.26 Chaos](Chapter4_BPMod/zhs/UE4版本选择.md)
+- [版本选择：4.26.2 还是 4.26 Chaos](Chapter4_0_BPMod/zhs/UE4版本选择.md)
 - 解决动画蓝图更新事件导致的崩溃
 - 解决自定义材质无法显示或崩溃的问题
 - 解决内存不足导致的编译问题
-- [使用kismet-analyzer分析蓝图](Chapter4_BPMod/zhs/使用kismet-analyzer分析蓝图.md)
-- [将委托作为函数的参数](Chapter4_BPMod/zhs/将委托作为函数的参数.md)
+- [使用kismet-analyzer分析蓝图](Chapter4_0_BPMod/zhs/使用KismetAnalyzer分析蓝图.md)
+- [将委托作为函数的参数](Chapter4_0_BPMod/zhs/将委托作为函数的参数.md)
 
 ## Chapter 4.1：PAK Mod
 

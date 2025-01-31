@@ -15,7 +15,7 @@
 
 你可以从 [Releases](https://github.com/BLACKujira/RTF2ModdingGuide/releases) 下载我生成好的 *kismet-analyzer* ，并直接跳到下面的第四步。但你依旧需要 *.NET 8.0 运行时* 来让程序正常运行。
 
-否则可以从第一步开始自己生成 *kismet-analyzer*。
+或者可以从第一步开始自己生成 *kismet-analyzer*。
 
 ## 步骤1：克隆 kismet-analyzer 仓库
 

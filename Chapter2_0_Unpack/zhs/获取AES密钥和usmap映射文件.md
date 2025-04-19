@@ -12,7 +12,7 @@
 
 有两种方式，比较简便的是使用 *UE4SS* 导出 `.usmap` 映射文件。参考 [这个教程](https://github.com/Dmgvol/UE_Modding/blob/main/TheBasics/Extractingusmap.md) 即可。
 
-另一种方式是使用 [Dumper-7](https://github.com/Encryqed/Dumper-7) 。下载或克隆代码后编译这个项目，使用 *DLL注入器* 将其注入到游戏进程中。导出的内容中包括 `.usmap` 映射文件。
+另一种方式是使用 [Dumper-7](https://github.com/Encryqed/Dumper-7) 。下载或克隆代码后编译这个项目，使用 *任意DLL注入器* 将其注入到游戏进程中。导出的内容中包括 `.usmap` 映射文件。
 
 ## 各种工具对这两种文件的需求
 

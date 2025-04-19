@@ -13,7 +13,12 @@
 - [安装LUA Mod](Chapter1_TheBasics/zhs/安装LUAMod.md)
 - [进入Mod关卡](Chapter1_TheBasics/zhs/进入Mod关卡.md)
 
-## Chapter 2.0：R-Type Final 2 的项目构成
+## Chapter 2.0：解包 R-Type Final 2
+
+- 获取AES密钥和.usmap映射文件
+- 使用FModel查看和解包游戏资源
+
+## Chapter 2.1：R-Type Final 2 的项目构成
 
 这是Mod开发的基础之一，但没有涉及到太多技术内容，即便作为非开发者也可以作为兴趣阅读。
 
@@ -22,9 +27,8 @@
 - 重要的枚举
 - 重要的数据表
 - 重要的运行时对象
-- 使用UE4SS操控运行时对象
 
-## Chapter 2.1：速查表
+## Chapter 2.2：速查表
 
 这一章列举了一些数据表、枚举及其关联的内容，方便开发者快速查询所需内容的ID。
 
@@ -37,18 +41,20 @@
 
 ## Chapter 3.0：Mod开发的通用知识
 
-从这一章开始，我不会像第一章那样详细地介绍每个步骤，也不打算重复说明别人已经介绍过的内容。在一些教程的开头会有指向 [工具列表] 和 [技能列表] 的引用，请参照列表中的内容下载需要的工具和学习需要的技能。
+从这一章开始，我不会像第一章那样详细地介绍每个步骤，也不打算重复说明别人已经介绍过的内容。在一些教程的开头会有指向 [工具列表] 的引用，请参照列表中的内容下载需要的工具和学习需要的技能。
 
 - 工具列表
 - 技能列表
+- 文章和社区
 - [游戏内控制台指令](Chapter3_0_DeveBasics/zhs/游戏内控制台指令.md)
 
 ## Chapter 4.0：蓝图Mod
 
 这是一种流行的、充分利用虚幻引擎的Mod，借助Mod加载器，可以在每一个关卡加载时将 *含有自定义逻辑的Actor* 生成到关卡中。
 
-请参考 [这个经典的教程](https://docs.ue4ss.com/dev/feature-overview/blueprint-modloader.html) 学习 *蓝图Mod* 的基础。
+请参考 [这个经典的教程](https://docs.ue4ss.com/dev/feature-overview/blueprint-modloader.html) 学习 *蓝图Mod* 的开发方式。
  
+- 开发蓝图Mod的基本流程
 - [版本选择：4.26.2 还是 4.26 Chaos](Chapter4_0_BPMod/zhs/UE4版本选择.md)
 - 解决动画蓝图更新事件导致的崩溃
 - 解决自定义材质无法显示或崩溃的问题
@@ -65,7 +71,7 @@
 
 ## Chapter 5.0：关卡Mod
 
-这一章介绍的是 *关卡Mod* 的通用知识，关于每个 *关卡Mod模板* 的细节请参考各自的文档。
+这一章介绍的是 *关卡Mod* 的通用知识，关于每个 *关卡Mod模板* 的细节请参考各自的文档。制作 *关卡Mod* 同样需要制作 *蓝图Mod* 和 *PAK Mod* 的知识。
 
 - 关卡加载逻辑
 - 关卡的构成

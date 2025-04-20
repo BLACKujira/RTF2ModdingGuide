@@ -29,7 +29,7 @@ output_dir = r"Folder where you want to output the files"
 
 After successful execution, the output directory will contain numerous subfolders and uppercase-named resource files.
 
-For an analysis of the resource packing method and script principles, please refer to [Resource Packing Method Analysis](./资源打包方式分析.md).
+For an analysis of the resource packing method and script principles, please refer to [Resource Packing Method Analysis](./ResourcePackingAnalysis.md).
 
 ## Viewing and Converting Models
 

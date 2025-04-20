@@ -4,7 +4,6 @@
 
 ## 选择目录
 
-
 1. 打开 *FModel*，点击顶部菜单栏的 `Settings`。
 2. 将以下两项进行设置：
    - `Archive Directory`：设置为游戏目录下的 `RTypeFinal2` 文件夹。（例：`D:\Program Files (x86)\Steam\steamapps\common\R-Type Final 2\RTypeFinal2`）
@@ -18,7 +17,7 @@
 ## 载入AES密钥
 
 1. 打开顶部菜单 `Directory -> AES`。
-2. 使用 *AESKeyFinder* 导出的多个密钥，逐个尝试输入。
+2. 使用 *AESKeyFinder* 导出的多个密钥，逐个尝试。
 3. 当输入了正确的密钥后，左侧 `.pak` 文件名将从灰色变为白色，表示已解密成功。
 
 此时已经可以解包基础的内容了。将 `Loading Mode` 调整成 `ALL` ，点击 `Load`，切换到 `Folders` 标签，就可以看到游戏的资源和目录了，但如果尝试预览或导出依旧会报错。

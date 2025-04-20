@@ -1,4 +1,4 @@
-# Unpacking Main Resource Files
+# Unpacking Main Resource File
 
 ## Extracting Disc Contents
 
@@ -17,7 +17,7 @@ If you don't have a CD drive, you can use the game's disc image file (e.g., .ISO
    - CMN.DAT (about 756MB)
    - CMN.FAT
 
-3. Set up your Python environment and download the extraction script from [Releases](https://github.com/BLACKujira/RTF2ModdingGuide/releases)
+3. Set up your Python environment and download the extraction script (`extract_rtt2_dat.py`) from [Releases](https://github.com/BLACKujira/RTF2ModdingGuide/releases)
 
 4. Open the `extract_rtt2_dat.py` script file, go to the main program section at the bottom, and modify the following variables:
 

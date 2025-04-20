@@ -90,7 +90,7 @@ This chapter introduces technical information about the game's original enemies,
 
 Since the remastered version *R-Type Tactics I & II Cosmos* is about to be released, there may soon be easier ways to extract higher-quality assets. Therefore, the content in this chapter might become less relevant.
 
-- [Unpacking the Main Resource Files](EX_UnpackRTT2/en/UnpackingMainResources.md)
+- [Unpacking the Main Resource File](EX_UnpackRTT2/en/UnpackingMainResourceFile.md)
 - [Analysis of Resource Packing Format](EX_UnpackRTT2/en/ResourcePackingAnalysis.md)
 - [Generating Normal Maps with Photoshop](EX_UnpackRTT2/en/GeneratingNormalMapsWithPhotoshop.md)
 - [Exporting Textures Using PPSSPP](EX_UnpackRTT2/en/ExportingTexturesWithPPSSPP.md)

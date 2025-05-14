@@ -12,6 +12,8 @@ Many of these tools are hard to find information about through regular search en
 
 The core technology used in this tutorial, fundamental and crucial, is used in almost all tutorials.
 
+---
+
 It integrates important functions such as exporting *`.usmap`* mapping files, exporting *UHT header files*, and exporting Actor information from maps.
 
 ### ![Tool_UE](../image/Tool_UE.png) (Important) Unreal Engine 4.26

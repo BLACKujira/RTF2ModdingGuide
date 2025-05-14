@@ -11,6 +11,7 @@
 - [PAK Modのインストール](Chapter1_TheBasics/ja/PAKModのインストール.md)
 - [LUA Modのインストール](Chapter1_TheBasics/ja/LUAModのインストール.md)
 - [Modステージに入る方法](Chapter1_TheBasics/ja/Modステージに入る方法.md)
+- [セーブデータのバックアップ](Chapter1_TheBasics/ja/セーブデータのバックアップ.md)
 
 ## Chapter 2.0: R-Type Final 2 のアンパック
 

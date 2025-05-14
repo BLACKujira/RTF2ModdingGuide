@@ -62,11 +62,11 @@ This list is based on `RTypeFinal2/Content/Debug/StageListDevDataTable.uasset`, 
 | 240 | ST_9900     | 99-00     | 99-00N1                             | ✅ For Testing    |       |
 | 241 | ST_9901     | 99-01     | 99-01N1                             | ❌ Infinite Load  |       |
 | 242 | ST_9902     | 99-02     | 99-02N1                             | ❌ Infinite Load  |       |
-| 243 | 243         | DUMMY     | Maching                             | ❌ Cannot Use     | Can enter, but will be kicked out |
-| 244 | 244         | DUMMY     | Reset                               | ✅ Implemented     |       |
-| 245 | 245         | DUMMY     | NetworkError                        | ✅ Implemented     |       |
-| 250 | 250         | Title     | Title                               | ✅ Implemented     |       |
-| 251 | 251         | Title     | ScoreAttack                         | ✅ Implemented     |       |
+| 243 | ST_MATCHING | DUMMY     | Maching                             | ❌ Cannot Use     | Can enter, but will be kicked out |
+| 244 | ST_RESET    | DUMMY     | Reset                               | ✅ Implemented     |       |
+| 245 | ST_NETWORK_ERROR | DUMMY     | NetworkError                        | ✅ Implemented     |       |
+| 250 | ST_TITLE    | Title     | Title                               | ✅ Implemented     |       |
+| 251 | ST_MENU_SCOREATK | Title     | ScoreAttack                         | ✅ Implemented     |       |
 
 - Stages with ID 243 and beyond do not lead to actual stages, but instead open specific interfaces.
 - If the stage has finished loading but the black screen isn't manually faded, you can locate the runtime object `FadeDriver` to `UMG_Fade_C`, then call `SetAlpha` to remove the black screen.

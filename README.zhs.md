@@ -12,6 +12,7 @@
 - [安装PAK Mod](Chapter1_TheBasics/zhs/安装PAKMod.md)
 - [安装LUA Mod](Chapter1_TheBasics/zhs/安装LUAMod.md)
 - [进入Mod关卡](Chapter1_TheBasics/zhs/进入Mod关卡.md)
+- [备份游戏存档](Chapter1_TheBasics/zhs/备份游戏存档.md)
 
 ## Chapter 2.0：解包 R-Type Final 2
 

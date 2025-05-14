@@ -13,6 +13,7 @@ The content in this chapter is consistent with general *Unreal Engine 4* and *Un
 - [Install PAK Mods](Chapter1_TheBasics/en/InstallingPAKMods.md)
 - [Install LUA Mods](Chapter1_TheBasics/en/InstallingLUAMods.md)
 - [Enter Mod Stages](Chapter1_TheBasics/en/EnterModLevels.md)
+- [Backup Save Files](Chapter1_TheBasics/en/BackupSaveFiles.md)
 
 ## Chapter 2.0: Unpacking R-Type Final 2
 

@@ -1,6 +1,6 @@
 # Backup Save Files
 
-If you don't like changes to your save data while modifying the game, or if you're worried about save file corruption for any reason, you can choose to back up your save files first. This allows you to restore them later if needed.
+If you want to restore your save after experiencing mod content, or are concerned about potential save corruption, it's recommended to back up your game save beforehand so you can restore it when needed.
 
 ## Locate Save File
 

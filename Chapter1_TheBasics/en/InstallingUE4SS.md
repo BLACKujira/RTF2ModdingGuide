@@ -5,6 +5,7 @@ Before developing or using mods for *R-Type Final 2*, installing UE4SS is an ess
 
 In this tutorial, we will learn how to install the developer version of `UE4SS v3.0.0`, upgrade it to `v3.0.1`, verify the installation, and troubleshoot potential issues.
 
+**Note: After the *R-Type Final 2* `v2.0.4` update, *UE4SS* encountered an issue where it could not find the `StaticConstructObject` AOB signature. Be sure to follow [this guide](InstallingAOBScript.md) to install the AOB script for *UE4SS* after installation.**
 ## Downloading UE4SS
 First, visit the [UE4SS-RE/RE-UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) repository. Click on the [Releases](https://github.com/UE4SS-RE/RE-UE4SS/releases) section on the right side of the page and download `zDEV-UE4SS_v3.0.1.zip`. Scroll down and also download `zDEV-UE4SS_v3.0.0.zip`.
 
@@ -42,8 +43,12 @@ You can refer to the [official UE4SS installation guide](https://docs.ue4ss.com/
 Since *R-Type Final 2* is a typical game developed using UE4, the installation of UE4SS follows the same process as for other UE4 and UE5 games. Most online tutorials and videos can be used as references.
 
 ## What’s Next...
-If UE4SS is installed successfully, you can now start installing mods. The installation method varies depending on the type of mod. Refer to the following tutorials to install different types of mods:
+**After the `v2.0.4` update, an *AOB script* must be added to *UE4SS* in order for it to work properly. Please refer to the following tutorial for instructions:**
+[Installing AOB Script](InstallingAOBScript.md)
+
+Then, you can start installing mods. The installation method varies depending on the type of mod. Refer to the following tutorials to install different types of mods:
 - [Installing Blueprint Mods](InstallingBlueprintMods.md)
+- [Installing PAK Mods](InstallingPAKMods.md)
 - [Installing LUA Mods](InstallingLUAMods.md)
 
 Some mods may require the installation of both `LUA Mods` and `Blueprint Mods` components to work correctly.

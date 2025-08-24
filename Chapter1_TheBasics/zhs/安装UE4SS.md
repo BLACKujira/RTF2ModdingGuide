@@ -5,6 +5,8 @@
 
 在这个教程中，我们将学习如何安装开发者版本的 `UE4SS v3.0.0` ，并升级到 `v3.0.1`，最后验证安装，并排除可能的问题。  
 
+**注意：在 *R-Type Final 2* 的 `v2.0.4` 版本更新后，出现了 *UE4SS* 找不到 `StaticConstructObject` AOB签名的问题。请务必在安装完成后参考 [这个教程](安装AOB脚本.md) 为 *UE4SS* 安装AOB脚本。**
+
 ## 下载UE4SS
 首先进入 [UE4SS-RE/RE-UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) ，点击页面右侧的 [Releases](https://github.com/UE4SS-RE/RE-UE4SS/releases)，下载 `zDEV-UE4SS_v3.0.1.zip` 。下滑页面，同样下载 `zDEV-UE4SS_v3.0.0.zip` 。
 
@@ -42,7 +44,11 @@
 由于 *R-Type Final 2* 是一个典型的用UE4开发的游戏，其安装UE4SS的方式与其他使用UE4、UE5开发的游戏别无二致。网络上大部分的教程文章、视频都可以用作参考。
 
 ## 接下来...
-如果UE4SS安装成功，接下来就可以安装Mod了。根据Mod类型的不同，安装方式也不同，请参照下面的教程安装不同类型的Mod。
+**在 `v2.0.4` 版本更新之后，需要为 *UE4SS* 加上 *AOB脚本* 才能正常使用，请参考以下教程进行操作：**
+- [安装AOB脚本](安装AOB脚本.md)
+
+
+接下来就可以安装Mod了。根据Mod类型的不同，安装方式也不同，请参照下面的教程安装不同类型的Mod。
 - [安装蓝图Mod](安装蓝图Mod.md)
 - [安装LUA Mod](安装LUAMod.md)
 

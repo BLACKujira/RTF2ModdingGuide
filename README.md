@@ -102,3 +102,8 @@ This chapter is still under research, and following these guidelines may not nec
 The purpose of this chapter is to facilitate the sharing of information among those researching these issues and collaborate to solve them.
 
 - [Create Mirror Game Project](EX_UnderInvestigation/en/CreatingMirrorGameProject.md)
+
+## Special Section: Mod Infrastructure
+This chapter explains how to create resources that only need to be built once by someone, but can then be used by the entire community. Examples include *UE4SS* AOB scanning scripts, Mod templates, and more.
+
+- [Writing AOB Scripts](EX_ModInfrastructure/en/WritingAOBScripts.md)

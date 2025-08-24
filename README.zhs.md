@@ -7,6 +7,7 @@
 本章节的内容与通用的 *虚幻引擎4*、*虚幻引擎5* 游戏Modding教程没有区别，但针对 *R-Type Final 2* 做了更具体的说明。
 
 - [安装UE4SS](Chapter1_TheBasics/zhs/安装UE4SS.md)
+- [安装AOB脚本](安装AOB脚本.md)
 - [手动注入UE4SS](Chapter1_TheBasics/zhs/手动注入UE4SS.md)
 - [安装蓝图Mod](Chapter1_TheBasics/zhs/安装蓝图Mod.md)
 - [安装PAK Mod](Chapter1_TheBasics/zhs/安装PAKMod.md)
@@ -102,3 +103,9 @@
 这一章是为了方便同样在研究这些问题的人共享已经获得的信息，并共同协作解决这些问题。
 
 - [创建镜像游戏项目](EX_UnderInvestigation/zhs/创建镜像游戏项目.md)
+
+## 特殊章节：Mod基础建设
+
+这一章介绍只要有一人完成一次，就够供整个社区使用的资源的制作方法。比如说 *UE4SS* 的AOB签名扫描脚本、Mod模板等。
+
+- [编写AOB脚本](EX_ModInfrastructure/zhs/编写AOB脚本.md)

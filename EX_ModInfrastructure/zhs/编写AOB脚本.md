@@ -22,9 +22,9 @@ AOB（Array of Bytes） 是通过在进程内存中搜索连续字节序列来�
     [PS] Failed to find GNatives: expected at least one value`
     ```
 - 找到多个地址的报错示例 （旧版本不会显示地址）
-  ```
-  [PS] Failed to find StaticConstructObject_Internal: found 2 unique values [7FF6CF1A8AF0, 7FF6D10A4DC0]
-  ```
+    ```
+    [PS] Failed to find StaticConstructObject_Internal: found 2 unique values [7FF6CF1A8AF0, 7FF6D10A4DC0]
+    ```
 
 错误信息下方通常会提示：
 ```

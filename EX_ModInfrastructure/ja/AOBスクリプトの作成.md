@@ -22,9 +22,9 @@ AOB（Array of Bytes）は、プロセスのメモリ内で連続するバイト
     [PS] Failed to find GNatives: expected at least one value`
     ```
 - 複数のアドレスが一致した場合のエラーメッセージ（旧バージョンではアドレスは表示されません）
-  ```
-  [PS] Failed to find StaticConstructObject_Internal: found 2 unique values [7FF6CF1A8AF0, 7FF6D10A4DC0]
-  ```
+    ```
+    [PS] Failed to find StaticConstructObject_Internal: found 2 unique values [7FF6CF1A8AF0, 7FF6D10A4DC0]
+    ```
 
 
 エラーの下には通常、次のようなメッセージが表示されます：

@@ -19,15 +19,15 @@ If UE4SS fails to find these or detects multiple matches, it will not function p
 
 - Error when no address is found:
 
-```
-[PS] Failed to find GNatives: expected at least one value`
-```
+    ```
+    [PS] Failed to find GNatives: expected at least one value`
+    ```
 
 - Error when multiple addresses are found (older versions did not display addresses):
 
-```
-[PS] Failed to find StaticConstructObject_Internal: found 2 unique values [7FF6CF1A8AF0, 7FF6D10A4DC0]
-``` 
+    ```
+    [PS] Failed to find StaticConstructObject_Internal: found 2 unique values [7FF6CF1A8AF0, 7FF6D10A4DC0]
+    ``` 
 
 Below the error message, you will often see a prompt like:
 

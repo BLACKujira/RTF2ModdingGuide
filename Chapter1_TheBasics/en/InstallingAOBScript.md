@@ -86,4 +86,4 @@ In the *UE4SS* `v3.0.1` experimental version, two optional functions `GNatives` 
 
 # DIY Script
 
-If you want to write your own AOB script, you can refer to this tutorial: [Writing AOB Scripts](../../EX_ModInfrastructure/en/WritingAOBScripts.md.md)
+If you want to write your own AOB script, you can refer to this tutorial: [Writing AOB Scripts](../../EX_ModInfrastructure/en/WritingAOBScripts.md)

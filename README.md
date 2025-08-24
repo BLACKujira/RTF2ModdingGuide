@@ -8,6 +8,7 @@ In this chapter, you will learn how to install *UE4SS* and various types of mods
 The content in this chapter is consistent with general *Unreal Engine 4* and *Unreal Engine 5* modding tutorials but includes specific details for *R-Type Final 2*.
 
 - [Install UE4SS](Chapter1_TheBasics/en/InstallingUE4SS.md)
+- [Installing AOB Script](Chapter1_TheBasics/en/InstallingAOBScript.md)
 - [Manually Inject UE4SS](Chapter1_TheBasics/en/ManuallyInjectingUE4SS.md)
 - [Install Blueprint Mods](Chapter1_TheBasics/en/InstallingBlueprintMods.md)
 - [Install PAK Mods](Chapter1_TheBasics/en/InstallingPAKMods.md)

@@ -7,7 +7,7 @@
 本章节的内容与通用的 *虚幻引擎4*、*虚幻引擎5* 游戏Modding教程没有区别，但针对 *R-Type Final 2* 做了更具体的说明。
 
 - [安装UE4SS](Chapter1_TheBasics/zhs/安装UE4SS.md)
-- [安装AOB脚本](安装AOB脚本.md)
+- [安装AOB脚本](Chapter1_TheBasics/zhs/安装AOB脚本.md)
 - [手动注入UE4SS](Chapter1_TheBasics/zhs/手动注入UE4SS.md)
 - [安装蓝图Mod](Chapter1_TheBasics/zhs/安装蓝图Mod.md)
 - [安装PAK Mod](Chapter1_TheBasics/zhs/安装PAKMod.md)

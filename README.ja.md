@@ -6,6 +6,7 @@
 本章の内容は、一般的な *Unreal Engine 4* および *Unreal Engine 5* のModdingチュートリアルと共通していますが、*R-Type Final 2* に特化した詳細が含まれています。
 
 - [UE4SSをインストール](Chapter1_TheBasics/ja/UE4SSのインストール.md)
+- [AOBスクリプトのインストール](Chapter1_TheBasics/ja/AOBスクリプトのインストール.md)
 - [UE4SSを手動で注入](Chapter1_TheBasics/ja/手動でUE4SSを注入する.md)
 - [ブループリントModのインストール](Chapter1_TheBasics/ja/ブループリントModのインストール.md)
 - [PAK Modのインストール](Chapter1_TheBasics/ja/PAKModのインストール.md)

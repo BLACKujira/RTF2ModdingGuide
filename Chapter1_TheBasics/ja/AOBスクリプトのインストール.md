@@ -6,13 +6,15 @@
 *UE4SS* をインストールしたゲームを起動した際に、コンソール出力に以下のような複数のエラーメッセージが表示され、Modが動作しない場合は AOB スクリプトのインストールが必要です。
 
 ```
-[PS] Failed to find GNatives: expected at least one value`
+[PS] Failed to find GNatives: expected at least one value
+[PS] You can supply your own AOB in 'UE4SS_Signatures/GNatives.lua'
 ```
 
 または
 
 ```
 [PS] Failed to find StaticConstructObject_Internal: found 2 unique values
+[PS] You can supply your own AOB in 'UE4SS_Signatures/StaticConstructObject.lua'
 ```
 
 のようなメッセージが出ます。

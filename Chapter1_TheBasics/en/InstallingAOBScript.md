@@ -8,13 +8,15 @@ This tutorial explains how to add an AOB script to *UE4SS* after [installing UE4
 If, when launching the game with *UE4SS* installed, the console output shows multiple lines like:
 
 ```
-[PS] Failed to find GNatives: expected at least one value`
+[PS] Failed to find GNatives: expected at least one value
+[PS] You can supply your own AOB in 'UE4SS_Signatures/GNatives.lua'
 ```
 
 or
 
 ```
 [PS] Failed to find StaticConstructObject_Internal: found 2 unique values
+[PS] You can supply your own AOB in 'UE4SS_Signatures/StaticConstructObject.lua'
 ```
 
 and mods cannot be loaded, then you need to install an AOB script.

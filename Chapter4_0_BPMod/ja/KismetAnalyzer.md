@@ -52,7 +52,7 @@
 例：
 
 ```
-"D:\Extract\kismet-analyzer\bin\Debug\net8.0\kismet-analyzer.exe" cfg "E:\Extract\RTypeFinal2\Content\character\Enemy\E000\ABP_E000_POW_01.uasset" -m "D:\Extract\Dumper-7\Unicode-Names-4.26.0-0+++UE4+Release-4.26-RTypeFinal2\Mappings\4.26.0-0+++UE4+Release-4.26-RTypeFinal2.usmap" --ue-version VER_UE4_26
+"D:\Extract\kismet-analyzer\bin\Debug\net8.0\kismet-analyzer.exe" cfg "E:\Extract\RTypeFinal2\Content\character\Enemy\E000\ABP_E000_POW_01.uasset" -m "D:\Program Files (x86)\Steam\steamapps\common\R-Type Final 2\RTypeFinal2\Binaries\Win64\Mappings.usmap" --ue-version VER_UE4_26
 ```
 
 

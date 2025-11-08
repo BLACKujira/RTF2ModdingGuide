@@ -3,13 +3,11 @@ Before developing or using mods for *R-Type Final 2*, installing UE4SS is an ess
 
 `UE4SS` is a powerful tool that provides support for two main types of mods—`LUA Mods` and `Blueprint Mods`. It also includes features like viewing and editing in-game objects, exporting map files, and generating header files. Most of the following content relies on UE4SS as a foundation.
 
-In this tutorial, we will learn how to install the developer version of `UE4SS v3.0.0`, upgrade it to `v3.0.1`, verify the installation, and troubleshoot potential issues.
+In this tutorial, we will learn how to install the developer version of `UE4SS v3.0.1`, verify the installation, and troubleshoot potential issues.
 
 **Note: After the *R-Type Final 2* `v2.0.4` update, *UE4SS* encountered an issue where it could not find the `StaticConstructObject` AOB signature. Be sure to follow [this guide](InstallingAOBScript.md) to install the AOB script for *UE4SS* after installation.**
 ## Downloading UE4SS
-First, visit the [UE4SS-RE/RE-UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) repository. Click on the [Releases](https://github.com/UE4SS-RE/RE-UE4SS/releases) section on the right side of the page and download `zDEV-UE4SS_v3.0.1.zip`. Scroll down and also download `zDEV-UE4SS_v3.0.0.zip`.
-
-Note: Both versions need to be downloaded because `v3.0.0` must be installed before upgrading to `v3.0.1`.
+First, visit the [UE4SS-RE/RE-UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) repository. Click on the [Releases](https://github.com/UE4SS-RE/RE-UE4SS/releases) section on the right side of the page and download `zDEV-UE4SS_v3.0.1.zip`.
 
 ## Locating the Installation Directory
 For the Steam version, right-click the game icon, select `Manage` -> `Browse Local Files` from the menu. This will open the game’s installation directory. You should see an executable named `RTypeFinal2.exe` and folders like `Engine` and `RTypeFinal2`. If you purchased the OST, there will also be an OST folder.
@@ -18,17 +16,12 @@ For the Steam version, right-click the game icon, select `Manage` -> `Browse Loc
 
 Open the `RTypeFinal2` **folder**, then navigate to the `Binaries` folder, and finally to the `Win64` folder. Here, you should see a file named `RTypeFinal2-Win64-Shipping.exe`. This is the installation directory for UE4SS.
 
-## Installing UE4SS v3.0.0
-Extract all the contents of `zDEV-UE4SS_v3.0.0.zip` into the installation directory. If done correctly, the folder should look like the image below.
+## Installing UE4SS v3.0.1
+Extract all the contents of `zDEV-UE4SS_v3.0.1.zip` into the installation directory. If done correctly, the folder should look like the image below.
 
 ![AfterInstall](../image/AfterInstall.png)
 
 Now, launch the game. If the installation was successful, you should see the UE4SS console launch alongside the game. If not, double-check the steps above. If everything seems correct and it still doesn’t work, please refer to the [Manual Injection of UE4SS](ManualInjectionUE4SS.md) guide for a solution.
-
-If the console appears blank, don't worry. This issue can be resolved after upgrading to `v3.0.1`.
-
-## Upgrading to UE4SS v3.0.1
-Extract the contents of `zDEV-UE4SS_v3.0.1.zip` into the same directory, overwriting any files with the same name. This upgrades UE4SS to version `v3.0.1`.
 
 ## Resolving Console Display Issues
 If the UE4SS console is entirely black or white, locate the `UE4SS-settings.ini` file in the UE4SS installation directory.

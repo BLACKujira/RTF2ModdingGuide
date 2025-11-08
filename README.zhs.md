@@ -4,7 +4,15 @@
 
 在这一章中，你将学会如何为 *R-Type Final 2* 安装 *UE4SS* 和不同类型的Mod。无论你是Mod开发者还是Mod玩家，都需要学习这一章的内容。
 
-本章节的内容与通用的 *虚幻引擎4*、*虚幻引擎5* 游戏Modding教程没有区别，但针对 *R-Type Final 2* 做了更具体的说明。
+### 使用Mod管理器
+
+对于初学者和希望快速体验Mod的玩家来说，使用 R-Type Final 2 Mod 管理器 是最便捷的方式。相比手动安装，Mod管理器可以大幅减少学习成本和操作难度。
+
+- [使用 R-Type Final 2 Mod 管理器](Chapter1_TheBasics/zhs/使用Mod管理器.md)
+
+### 手动安装
+
+这里的许多内容与通用的 *虚幻引擎4*、*虚幻引擎5* 游戏Modding教程没有区别，但针对 *R-Type Final 2* 做了更具体的说明。
 
 - [安装UE4SS](Chapter1_TheBasics/zhs/安装UE4SS.md)
 - [安装AOB脚本](Chapter1_TheBasics/zhs/安装AOB脚本.md)
@@ -69,7 +77,7 @@
 
 *PAK Mod* 是蓝图Mod的一个超集，它通常不具备扩展游戏系统的功能。其中有两种类型，使用 *UAssetGUI* + *UnrealPak* 制作不需要烘焙的 *PAK Mod* ,这种通常用于修改数据。或者使用 *虚幻引擎* 制作需要烘焙的 *PAK Mod*，这种通常用于替换音乐或贴图。
 
-- 示例：替换背景音乐（需要烘焙）
+- 示例：[替换背景音乐（需要烘焙）](Chapter4_1_PAKMod/zhs/替换背景音乐.md)
 - 示例：修改武器数据（不需要烘焙）
 
 ## Chapter 5.0：关卡Mod

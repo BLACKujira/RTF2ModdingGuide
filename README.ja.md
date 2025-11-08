@@ -3,7 +3,15 @@
 ## Chapter 1.0: R-Type Final 2 Modding の基礎
 この章では、*R-Type Final 2* のための *UE4SS* やさまざまな種類のModをインストールする方法を学びます。Mod開発者でもプレイヤーでも、この章の内容は必須です。
 
-本章の内容は、一般的な *Unreal Engine 4* および *Unreal Engine 5* のModdingチュートリアルと共通していますが、*R-Type Final 2* に特化した詳細が含まれています。
+### Modマネージャーの使用
+
+初心者やModをすぐに楽しみたいプレイヤーにとって、**R-Type Final 2 Modマネージャー** は最も便利な方法です。手動インストールと比べて、Modマネージャーを使うことで学習コストと操作の難易度を大幅に減らせます。
+
+- [R-Type Final 2 Modマネージャーの使用方法](Chapter1_TheBasics/ja/Modマネージャーの使用方法.md)
+
+### 手動インストール
+
+ここで紹介する多くの内容は、一般的な *Unreal Engine 4* および *Unreal Engine 5* のModdingチュートリアルと共通していますが、*R-Type Final 2* 向けにより具体的な説明を追加しています。
 
 - [UE4SSをインストール](Chapter1_TheBasics/ja/UE4SSのインストール.md)
 - [AOBスクリプトのインストール](Chapter1_TheBasics/ja/AOBスクリプトのインストール.md)
@@ -68,7 +76,7 @@
 ## Chapter 4.1: PAK Mod
 *PAK Mod* は、ブループリントModの上位に位置するもので、通常ゲームシステムを拡張する機能はありません。PAK Modには2つのタイプがあります。*UAssetGUI* と *UnrealPak* を使って、ベイクを必要としない *PAK Mod* を作成する方法（通常はデータの修正に使用）と、*Unreal Engine* を使用してベイクが必要な *PAK Mod* を作成する方法（通常は音楽やテクスチャの置き換えに使用）です。
 
-- 例: バックグラウンドミュージックを変更（ベイクが必要）
+- 例: [バックグラウンドミュージックを変更（ベイクが必要）](Chapter4_1_PAKMod/ja/BGMの差し替え.md)
 - 例: 武器データを変更（ベイクが不要）
 
 ## Chapter 5.0: ステージMod

@@ -3,8 +3,6 @@
 UE4SSとModのインストール手順が複雑すぎる問題を解決するために、私は [R-Type Final 2 Mod マネージャー](https://github.com/BLACKujira/RTF2ModManager) を制作しました。  
 これは *R-Type Final 2* のMod導入を簡略化するためのグラフィカル管理ツールで、多言語切り替え、自動ゲームディレクトリ検出、UE4SSのインストール、および一般的なModのワンクリック管理に対応しています。
 
----
-
 ## Modマネージャーのダウンロード
 
 まず、[RTF2ModManager の Releases](https://github.com/BLACKujira/RTF2ModManager/releases) ページから `RTF2ModManager.zip` をダウンロードしてください。
@@ -19,8 +17,6 @@ UE4SSとModのインストール手順が複雑すぎる問題を解決するた
 
 > **注意：ZIPファイル内から直接 `RTF2ModManager.exe` を実行しないでください。**  
 > Modファイルが見つからずエラーが発生する可能性があります。
-
----
 
 ## ゲームディレクトリの設定
 
@@ -38,8 +34,6 @@ Steam版でデフォルトのインストール先（`\Program Files (x86)\Steam
 
 ![GameDir](../image/GameDir.png)
 
----
-
 ## UE4SSのインストール
 
 「UE4SS管理」欄には現在の *UE4SS* のインストール状態が表示されます。  
@@ -53,8 +47,6 @@ Steam版でデフォルトのインストール先（`\Program Files (x86)\Steam
 また、Modマネージャーに戻ると「UE4SS管理」欄の `LogicMods フォルダが見つかりません。UE4SS のインストール後に一度ゲームを起動してください。改善しない場合は手動での注入をお試しください` という警告が消えます。  
 これでModをインストールできるようになります。
 
----
-
 ### 静的注入の使用
 
 UE4SSをインストールした後にゲームを起動しても *UE4SSコンソール* やコマンドラインウィンドウが表示されない場合、あなたの環境では `UE4SS.dll` が自動でゲームプロセスに注入されていない可能性があります。  
@@ -63,8 +55,6 @@ UE4SSをインストールした後にゲームを起動しても *UE4SSコン�
 ![RTF2MM_UE4SSInject](../image/RTF2MM_UE4SSInject.png)
 
 「静的注入」をクリックし、しばらく待機してください。完了後にもう一度ゲームを起動して、必要なファイル・フォルダを生成させます。
-
----
 
 ## Modのインストール
 
@@ -87,8 +77,6 @@ UE4SSをインストールした後にゲームを起動しても *UE4SSコン�
 > [RTF2 Debug Tools](https://github.com/BLACKujira/RTF2DebugToolsMod)、  
 > [FPS Player](https://github.com/BLACKujira/FPSPlayerMod)  
 > それ以外のModは手動でインストールする必要があります。
-
----
 
 ## セーブデータのバックアップ
 

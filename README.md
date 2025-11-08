@@ -5,7 +5,15 @@
 ## Chapter 1.0: Basics of R-Type Final 2 Modding
 In this chapter, you will learn how to install *UE4SS* and various types of mods for *R-Type Final 2*. Whether you are a mod developer or a mod player, this chapter is essential.
 
-The content in this chapter is consistent with general *Unreal Engine 4* and *Unreal Engine 5* modding tutorials but includes specific details for *R-Type Final 2*.
+### Using the Mod Manager
+
+For beginners and players who want to quickly enjoy mods, using the **R-Type Final 2 Mod Manager** is the most convenient method. Compared to manual installation, the Mod Manager significantly reduces the learning curve and operational complexity.
+
+- [Using R-Type Final 2 Mod Manager](Chapter1_TheBasics/en/UsingModManager.md)
+
+### Manual Installation
+
+Many aspects here are similar to general *Unreal Engine 4* and *Unreal Engine 5* modding tutorials, but we provide more specific instructions for *R-Type Final 2*.
 
 - [Install UE4SS](Chapter1_TheBasics/en/InstallingUE4SS.md)
 - [Installing AOB Script](Chapter1_TheBasics/en/InstallingAOBScript.md)
@@ -72,7 +80,7 @@ If you're a beginner, you can start by following [this classic tutorial](https:/
 1. PAK Mods that do not require baking, created using *UAssetGUI* and *UnrealPak*, often for data modification.
 2. PAK Mods that require baking, created using *Unreal Engine*, typically for replacing music or textures.
 
-- Example: Replacing Background Music (requires baking)
+- Example: [Replacing Background Music (requires baking)](Chapter4_1_PAKMod/en/ReplaceBackgroundMusic.md)
 - Example: Modifying Weapon Data (does not require baking)
 
 ## Chapter 5.0: Stage Mods
